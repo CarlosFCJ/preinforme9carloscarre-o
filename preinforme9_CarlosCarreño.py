@@ -52,4 +52,18 @@ fo = f+2
 for c in range(2,fo,1):
     print(str(co))
     co = str(co) + str(c)
-    int(c)
+    int(c)    
+
+#%% 6
+def suma(a,b):
+    """ Ejemplo 1"""
+    s = a+b
+    print(s)
+
+def hola(arg):
+    """ Ejemplo 2"""
+    print("hola",arg)
+
+def mayor(a,b):
+    """ Ejemplo 3"""
+    print(a>b)
